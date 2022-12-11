@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /* betty style doc for function main goes there */
+/**
+ * main - here goes your main functions
+ * all in it is basic of program
+ * Return: always 0 to be correct
+ */
 int main(void)
 {
 	int  n;
