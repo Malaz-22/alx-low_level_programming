@@ -1,8 +1,23 @@
 #include <stdio.h>
-/** main - body of program
+/**
+ * main - body of program
  * here begin excuite code
  * Return: 0 to be correct
  */
-char main(void)
+int main(void)
 {
+	char a;
 
+	for (a = 'a'; a <= 'z'; a++)
+	{
+	putchar(a);
+	}
+	char A;
+
+	for (A = 'A'; A <= 'Z'; A++)
+	{
+	putchar(A);
+	}
+	putchar('\n');
+	return (0);
+}
