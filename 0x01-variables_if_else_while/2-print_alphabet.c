@@ -5,7 +5,7 @@
  * here code begins
  * Return: 0 to be correct
  */
-char main(void)
+int main(void)
 {
 	char a;
 
