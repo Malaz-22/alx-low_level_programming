@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print alphapet in lower case
+ * print_alphabet - write alphapet letter
  *
  * Return: unfound
  */
