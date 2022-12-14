@@ -8,7 +8,7 @@
 int print_last_digit(int n)
 {
 	n = 0;
-	while (n >= 9)
+	while (n <= 9)
 	{
 		return (n);
 		n++;
