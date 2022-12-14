@@ -8,12 +8,10 @@
  */
 void print_to_98(int n)
 {
-	if (n > 0)
-	if (n <= 98)
+	if (n > 0 && n <= 98)
 	{
-		_putchar(n + '0');
-		_putchar(',');
-		_putchar(' ');
+		printf("%d, ", n);
+		n++;
 	}
-	_putchar('\n');
+	printf("\n");
 }
