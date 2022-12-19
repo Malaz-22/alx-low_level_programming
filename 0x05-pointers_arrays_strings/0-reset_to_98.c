@@ -2,10 +2,10 @@
 
 /**
  * reset_to_98 - updates the value of pointer to 98.
- * @*n: name of pointer
+ * @n: name of pointer
  * Return: no found (void)
  */
 void reset_to_98(int *n)
 {
-	*n = 98;
+		*n = 98;
 }
