@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcmp - compares two integers
+ * _strcmp - compares two integers
  * @s1: string 1
  * @s2: string 2
  * Return: 0 if s1 = s2 and greater than 0 if s1>s2
