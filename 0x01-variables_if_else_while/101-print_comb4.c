@@ -17,7 +17,7 @@ int main(void)
 		putchar(m + '0');
 		putchar(l + '0');
 	}
-	if (!((n == 7) && (m == 8) && (l == 9)))
+	if (!((n == 7) || (m == 8) || (l == 9)))
 	{
 		putchar(',');
 		putchar(' ');
