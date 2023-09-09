@@ -12,7 +12,7 @@ int main(void)
 	for (m = 0; m <= 9; m++)
 	for (l = 0; l <= 9; l++)
 	for (q = 0; q <= 9; q++)
-	if ((n <= m) || (l <= q))
+	if ((n <= m) || (l < q))
 	{
 		putchar(n + '0');
 		putchar(m + '0');
