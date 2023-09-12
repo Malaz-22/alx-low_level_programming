@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (n == m)
 		{
-			continue;
+			break;
 		}
 		putchar(n / 10 + '0');
 		putchar(n % 10 + '0');
