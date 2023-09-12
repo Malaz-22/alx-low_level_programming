@@ -11,7 +11,6 @@ int main(void)
 	for (n = 0; n <= 99; n++)
 	for (m = 0; m <= 99; m++)
 	{
-		if (((n / 10) && (n % 10)) != ((m + 1) / 10) && ((m + 1) % 10))
 		putchar((n / 10) + '0');
 		putchar((n % 10) + '0');
 		putchar(' ');
@@ -23,6 +22,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
+	
 	putchar('\n');
 	return (0);
 }
