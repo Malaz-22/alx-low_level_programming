@@ -11,7 +11,7 @@ int main(void)
 	for (n = 0; n <= 99; n++)
 	for (m = 0; m <= 99; m++)
 	{
-		if (n == m)
+		if (n != m)
 		{
 			break;
 		}
