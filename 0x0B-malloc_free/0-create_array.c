@@ -24,11 +24,8 @@ char *create_array(unsigned int size, char c)
 	}
 	for (i = 0; i < size; i++)
 	{
-		if (i == 0)
-		{
-			a[i] = c;
-		}
-		a[i] = *(a + i);
+		a[i] = c;
+		
 	}
 	return (a);
 }
