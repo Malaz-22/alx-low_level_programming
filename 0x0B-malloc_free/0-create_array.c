@@ -28,6 +28,7 @@ char *create_array(unsigned int size, char c)
 		{
 			a[i] = c;
 		}
+		a[i] = *(a + i);
 	}
 	return (a);
 }
