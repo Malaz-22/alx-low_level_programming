@@ -8,9 +8,11 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	if (argc > 1)
+	int count;
+
+	for (count = 0; count < argc; count++)
 	{
-		printf("%d\n", argc);
+		printf("%d\n", count);
 	}
 	return (0);
 }
