@@ -18,6 +18,6 @@ int main(int argc, char *argv[] __attribute__((unused)))
 		}
 	}
 	else
-		(argc = 1);
+		(argc = 0);
 	return (0);
 }
