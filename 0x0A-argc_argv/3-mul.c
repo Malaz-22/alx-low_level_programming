@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two numbers
@@ -8,9 +9,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int n1, n2, result;
+	int result;
 
-	result = n1 * n2;
+	result = atoi((argv[argc - 1])) * atoi((argv[argc - 2]));
 	if (argc == 3)
 	{
 		printf("%d\n", result);
