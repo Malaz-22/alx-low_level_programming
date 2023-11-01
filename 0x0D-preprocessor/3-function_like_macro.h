@@ -3,6 +3,9 @@
 
 #define ABS(x) x
 #if (x < 0)
-x = -x;
+printf("%d\n", -x);
+#endif /* x < 0 */
+#else
+printf("%d\n", x);
 
 #endif
